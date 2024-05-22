@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Sección de Resultados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Proyectos</h1>
+        </header>
+
+        <section>
+            <h2>Granja Ucundinamarca</h2>
+            <form>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <div class="fixed-text">Este proyecto consta de la programacion de un programa de registro de una granja donde se lleva el cotrol del ganado y la agricultura , todo esto programado en el lengueje de programacion Python y toda esta informacion almacenada en una Base de datos en SQL server.</div>
+                </div>
+                <div class="form-group">
+                    <label for="resultados">Resultados:</label>
+                    <img src="image.png" >
+                </div>
+                <div class="button-container">
+                    <a class="contact-button" type="button" onclick="window.location.href='https://github.com/Camilo19P8/Granja_A.git'">Ir a repocitorio</a>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>interfaz gráfica de usuarios</h2>
+            <form>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <div class="fixed-text">Este proyecto consta de la programacion de un programa editor de notas con la librería tkineter, en esencia es un ejercicio sencillo pero con implicaciones educativas para el manejo de interfaces graficas en Python.</div>
+                </div>
+                <div class="form-group">
+                    <label for="resultados">Resultados:</label>
+                    <img src="image2.png" >
+                </div>
+                <div class="button-container">
+                    <a class="contact-button" type="button" onclick="window.location.href='https://github.com/Camilo19P8/GRA.git'">Ir a repocitorio</a>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Codigo de estacion meteorologica ENMA</h2>
+            <form>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <div class="fixed-text">Este proyecto consta de la codificación que compone a la estación meteorológica ENMA, la cual consta de una programación de 7 sensores, 1 pantalla LCD y un módulo Wi-FI. Todo esto cargado en un Arduino mega, la codificación fue en el lenguaje C++.</div>
+                </div>
+                <div class="form-group">
+                    <label for="resultados">Resultados:</label>
+                    <img src="image3.png" >
+                </div>
+                <div class="button-container">
+                    <a class="contact-button" type="button" onclick="window.location.href='https://github.com/Camilo19P8/Estaci-n-Meteorol-gica-.git'">Ir a repocitorio</a>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div class="form-group">
+                    <label for="contacto">Número de Contacto:</label>
+                    <input type="tel" id="contacto" name="contacto">
+                </div>
+                <div class="form-group">
+                    <label for="tipo-contacto">Tipo de Número:</label>
+                    <select id="tipo-contacto" name="tipo-contacto">
+                        <option value="personal">Personal</option>
+                        <option value="fijo">Fijo</option>
+                        <option value="oficina">Oficina</option>
+                    </select>
+                </div>
+                <div class="button-container">
+                    <button class="contact-button" type="submit">Enviar Información</button>
+                </div>
+            </form>
+        </section>
+        <div class="button-container">
+            <a href="index.html" class="contact-button">Volver </a>
+        </div>
+    </div>
+</body>
+</html>
